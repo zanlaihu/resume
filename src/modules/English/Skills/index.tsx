@@ -1,10 +1,11 @@
 import SingleSkill from 'src/components/SingleSkill'
 import { SkillConstant } from 'src/contants/EN'
 import './index.css'
+import styles from './styles.module.scss'
 
 const Skills = () => {
   return (
-    <div className='skill-content'>
+    <div className={styles.content}>
       <div className='english-skill-stack'>
         <div className='skill-svg-content'>
           <svg
@@ -24,10 +25,8 @@ const Skills = () => {
         </div>
         {SkillConstant.title}
       </div>
-      <div className='skill-single-content'>
-        {SkillConstant.skills.map(item => (
-          <SingleSkill skill={item} />
-        ))}
+      <div className={styles.skills}>
+        web, mobile web, H5, Hybrid, HTML, CSS/Less/Sass, JavaScript/TypeScript, React
       </div>
     </div>
   )

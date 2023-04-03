@@ -4,11 +4,11 @@ import Projects from 'src/modules/English/Projects'
 import Skills from 'src/modules/English/Skills'
 import Thanks from 'src/modules/English/Thanks'
 import Work from 'src/modules/English/Work'
-import styles from 'styles.module.scss'
+import styles from './styles.module.scss'
 
-const ChineseResume = () => {
+const EnglishResume = () => {
   return (
-    <div className='chinese-content'>
+    <div className={styles.content}>
       <div>
         <Profile />
         <Skills />
@@ -21,4 +21,4 @@ const ChineseResume = () => {
   )
 }
 
-export default ChineseResume
+export default EnglishResume

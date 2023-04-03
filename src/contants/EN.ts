@@ -4,7 +4,7 @@ export const ProfileConstant = {
   title: 'Zanlai Hu / Resume',
   phone: '13867908869',
   email: 'klaushu@outlook.com',
-  web: 'More info about me and projects, welcome to my website: ',
+  web: 'Welcome to visite my personal website to get more info: ',
 }
 
 export const EducationConstant = {
@@ -33,7 +33,7 @@ export const WorkConstant = {
     {
       workInfo: {
         name: 'Ant Group',
-        year: '2021.10 - Now',
+        year: '2021/10 - 2023/4',
         major: 'Front-end Developer',
         level: '',
         gpa: '',
@@ -47,7 +47,7 @@ export const WorkConstant = {
     {
       workInfo: {
         name: 'Accenture',
-        year: '2020.5 - 2021.8',
+        year: '2020/5 - 2021/8',
         major: 'Software Engineer',
         level: '',
         gpa: '',

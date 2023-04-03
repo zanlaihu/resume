@@ -33,7 +33,7 @@ export const WorkConstant = {
     {
       workInfo: {
         name: '蚂蚁集团',
-        year: '2021.10 - 至今',
+        year: '2021/10 - 2023/4',
         major: '前端开发工程师',
         level: '',
         gpa: '',
@@ -47,7 +47,7 @@ export const WorkConstant = {
     {
       workInfo: {
         name: '埃森哲',
-        year: '2020.5 - 2021.8',
+        year: '2020/5 - 2021/8',
         major: '软件工程师',
         level: '',
         gpa: '',

@@ -1,0 +1,13 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 18px;
+  padding: 14px;
+  border: 1px solid hsl(210deg 18% 87% / 100%);
+  border-radius: 6px;
+}
+  
+.introContent {
+  padding-bottom: 4px;
+}

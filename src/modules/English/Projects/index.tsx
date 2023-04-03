@@ -1,14 +1,15 @@
-import './index.css'
 import BOProjects from '../BOProjects'
-import ProtalProject from '../PortalProject'
 import ComponentProject from '../ComponentProject'
+import ProtalProject from '../PortalProject'
 import WalletProjects from '../WalletProjects'
+import './index.css'
+import styles from './styles.module.scss'
 
 const Projects = () => {
   return (
-    <div className='projects-content'>
-      <div className='project-title-content'>
-        <div className='skill-svg-content'>
+    <div className={styles.content}>
+      <div className={styles.titleContent}>
+        <div className={styles.svg}>
           <svg
             aria-hidden='true'
             height='16'
@@ -23,7 +24,7 @@ const Projects = () => {
             ></path>
           </svg>
         </div>
-        Representative Projects
+        <div className={styles.title}>Representative Projects</div>
       </div>
       <div>
         <WalletProjects />

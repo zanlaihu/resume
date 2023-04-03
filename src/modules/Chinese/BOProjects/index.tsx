@@ -22,7 +22,6 @@ const BOProjects = () => {
       <SingleProject
         title={'批量代发'}
         desc={['BO中后台的批量代发功能。批量代发员工工资以节省企业管理成本。']}
-        width={'500px'}
       />
     </div>
   )

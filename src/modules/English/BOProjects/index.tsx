@@ -1,16 +1,16 @@
-import EnglishSingleProject from 'src/components/EnglishSingleProject'
 import SingleProject from 'src/components/SingleProject'
 import './index.css'
+import styles from './styles.module.scss'
 
 const desc = [
   'The BO Middle Office is the supporting product for the productized wallet. Operators can use BO to configure applications on the wallet. BO also offer functions independent of the wallet.',
-  'During my work at Ant, I was only responsible for one BO-related development: batch delivery.',
+  'The project that developed independently by me: Bulk Disbursement.',
 ]
 
 const BOProjects = () => {
   return (
-    <div className='english-bo-project-content'>
-      <div>
+    <div className={styles.content}>
+      <div className={styles.introContent}>
         <div className='wallet-project-title'>BO Middle Office</div>
         {desc.map(item => (
           <div className='single-project-desc'>
@@ -19,10 +19,11 @@ const BOProjects = () => {
           </div>
         ))}
       </div>
-      <EnglishSingleProject
+      <SingleProject
         title={'Bulk Disbursement'}
-        desc={['The batch delivery function. Send employee wages in batches to save enterprise management costs.']}
-        width={'600px'}
+        desc={[
+          'The Bulk Disbursement send employee wages in batches to save enterprise management costs.',
+        ]}
       />
     </div>
   )

@@ -28,9 +28,9 @@ const Profile = () => {
           <ProfileInfo title={ProfileConstant.email} img={email} />
         </div>
       </div>
-      <div className='profile-qr'>
+      {/* <div className='profile-qr'>
         <img src={frame}></img>
-      </div>
+      </div> */}
     </div>
   )
 }
