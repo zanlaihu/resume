@@ -1,0 +1,42 @@
+.wallet-project-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 14px 14px 0px;
+    /* width: 100%; */
+    border: 1px solid hsl(210deg 18% 87% / 100%);
+    border-radius: 6px;
+}
+
+.wallet-project-title {
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+
+.single-project-desc {
+    /* margin-top: 6px; */
+    display: flex;
+    flex-direction: row;
+    color: #57606a;
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.single-project-desc-icon {
+    padding-right: 6px;
+}
+
+.single-project-view {
+    /* padding-top: 10px; */
+    /* padding-left: 12px; */
+    color: #0969da;
+    font-size: 13px;
+
+    /* font-weight: 400; */
+}
+
+.wallet-project-list {
+    display: flex;
+    flex-direction: row;
+}

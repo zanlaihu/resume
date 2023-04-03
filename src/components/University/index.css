@@ -1,0 +1,49 @@
+.university-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 4px;
+}
+
+.university-left {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.university-name {
+  margin-right: 20px;
+  /* width: 160px; */
+  font-size: 18px;
+}
+
+.major {
+  margin-right: 6px;
+  height: 21px;
+
+  /* color: #57606a; */
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.degree-level {
+  width: 60px;
+
+  /* color: #57606a; */
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.gpa {
+  color: #57606a;
+  font-size: 14px;
+
+  /* font-weight: 200; */
+  line-height: 25px;
+}
+
+.unviersity-year {
+  color: #57606a;
+  font-size: 14px;
+  line-height: 22px;
+}

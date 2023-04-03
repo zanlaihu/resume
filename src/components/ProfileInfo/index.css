@@ -1,0 +1,17 @@
+.profile-info-content {
+    display: flex;
+    flex-direction: row;
+    margin-right: 26px;
+}
+
+.img {
+    margin-right: 6px;
+    width: 16px;
+    height: 16px;
+}
+
+.title {
+    color: #57606a;
+    font-size: 12px;
+    line-height: 16px;
+}
