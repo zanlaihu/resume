@@ -1,13 +1,14 @@
-import ProfileInfo from '../../../components/ProfileInfo'
-import './index.css'
-import phone from 'src/assets/img/phone.svg'
 import email from 'src/assets/img/email.svg'
 import frame from 'src/assets/img/frame.svg'
-import { PersonalWebsiteUrl, ProfileConstant } from '../../../contants/CH'
+import phone from 'src/assets/img/phone.svg'
+import ProfileInfo from 'src/components/ProfileInfo'
+import { PersonalWebsiteUrl, ProfileConstant } from 'src/contants/CH'
+import './index.css'
+import styles from './styles.module.scss'
 
 const Profile = () => {
   return (
-    <div className='profile-content'>
+    <div className={styles.content}>
       <div>
         <div className='name'>
           <div>{ProfileConstant.title}</div>
@@ -23,14 +24,14 @@ const Profile = () => {
             {PersonalWebsiteUrl}
           </a>
         </div>
-        <div className='profile-contact'>
+        <div className={styles.contract}>
           <ProfileInfo title={ProfileConstant.phone} img={phone} />
           <ProfileInfo title={ProfileConstant.email} img={email} />
         </div>
       </div>
-      <div className='profile-qr'>
+      {/* <div className='profile-qr'>
         <img src={frame}></img>
-      </div>
+      </div> */}
     </div>
   )
 }

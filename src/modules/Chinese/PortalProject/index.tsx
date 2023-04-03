@@ -1,9 +1,8 @@
 import SingleProject from 'src/components/SingleProject'
 import './index.css'
+import styles from './styles.module.scss'
 
-const desc = [
-  '蚂蚁国际事业群 - 钱包科技团队的官网'
-]
+const desc = ['蚂蚁国际事业群 - 钱包科技团队的官网']
 
 const PortalProject = () => {
   return (
@@ -16,6 +15,11 @@ const PortalProject = () => {
             <div>{item}</div>
           </div>
         ))}
+        <div className={styles.desc}>
+          <div className={styles.icon}>•</div>
+          官网已经上线，欢迎访问：
+          <a className={styles.url}>payment-tech.alipayplus.com</a>
+        </div>
       </div>
     </div>
   )

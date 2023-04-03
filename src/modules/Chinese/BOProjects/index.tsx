@@ -1,15 +1,16 @@
 import SingleProject from 'src/components/SingleProject'
 import './index.css'
+import styles from './styles.module.scss'
 
 const desc = [
   'BO中后台是产品化钱包的配套中后台产品。运营人员可以使用BO配置钱包上的应用。BO也有独立于钱包的功能。',
-  '入职蚂蚁期间，我只参与了一个BO相关的开发：批量代发。',
+  '由我独立完成的项目有：批量代发。',
 ]
 
 const BOProjects = () => {
   return (
-    <div className='bo-project-content'>
-      <div>
+    <div className={styles.content}>
+      <div className={styles.introContent}>
         <div className='wallet-project-title'>BO中后台</div>
         {desc.map(item => (
           <div className='single-project-desc'>

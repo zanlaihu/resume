@@ -1,8 +1,8 @@
 import { ThanksConstant } from 'src/contants/CH'
-import './index.css'
+import styles from './styles.module.scss'
 
 const Thanks = () => {
-  return <div className='thanks-content'>{ThanksConstant}</div>
+  return <div className={styles.content}>{ThanksConstant}</div>
 }
 
 export default Thanks

@@ -1,9 +1,10 @@
 import { ProjectConstant } from 'src/contants/CH'
-import './index.css'
 import WalletProjects from 'src/modules/Chinese/WalletProjects'
 import BOProjects from '../BOProjects'
-import ProtalProject from '../PortalProject'
 import ComponentProject from '../ComponentProject'
+import ProtalProject from '../PortalProject'
+import './index.css'
+import styles from './styles.module.scss'
 
 const Projects = () => {
   return (
@@ -24,8 +25,9 @@ const Projects = () => {
             ></path>
           </svg>
         </div>
-        {ProjectConstant.title}
+        <div className={styles.title}>{ProjectConstant.title}</div>
       </div>
+      <div className={styles.label}>代表项目由我独立完成需求收集、编写软件文档、并完成开发</div>
       <div>
         <WalletProjects />
         <ProtalProject />
