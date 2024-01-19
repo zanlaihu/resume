@@ -1,7 +1,7 @@
 import SingleProject from 'src/components/SingleProject'
 import './index.css'
 
-const desc = ['专用于产品化钱包的组件库','独立负责部分组件的开发，其中有：list、input、dialog、toast、drawer、progress等组件']
+const desc = ['专用于产品化钱包的组件库','负责以下组件的开发：list、input、dialog、toast、drawer、progress等组件']
 
 const ComponentProject = () => {
   return (

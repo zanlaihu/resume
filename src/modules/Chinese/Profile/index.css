@@ -8,9 +8,10 @@
   display: flex;
 
   /* color: #57606a; */
-  font-weight: 400;
+  font-weight: 500;
   color: #24292f;
   flex-direction: row;
+  font-size: 28px;
 }
 
 .gan {

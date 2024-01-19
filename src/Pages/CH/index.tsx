@@ -12,7 +12,7 @@ const ChineseResume = () => {
     <div className={styles.content}>
       <div>
         <Profile />
-        <Skills />
+        {/* <Skills /> */}
         <Education />
         <Work />
         <Projects />

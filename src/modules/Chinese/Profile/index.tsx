@@ -1,6 +1,7 @@
 import email from 'src/assets/img/email.svg'
 import frame from 'src/assets/img/frame.svg'
 import phone from 'src/assets/img/phone.svg'
+import birth from 'src/assets/img/birth.svg'
 import ProfileInfo from 'src/components/ProfileInfo'
 import { PersonalWebsiteUrl, ProfileConstant } from 'src/contants/CH'
 import './index.css'
@@ -13,7 +14,13 @@ const Profile = () => {
         <div className='name'>
           <div>{ProfileConstant.title}</div>
         </div>
-        <div className='web'>
+
+        <div className={styles.contract}>
+          <ProfileInfo title={ProfileConstant.phone} img={phone} />
+          <ProfileInfo title={ProfileConstant.email} img={email} />
+          <ProfileInfo title={"1994"} img={birth} />
+        </div>
+        {/* <div className='web'>
           {ProfileConstant.web}
           <a
             target='_blank'
@@ -23,11 +30,7 @@ const Profile = () => {
           >
             {PersonalWebsiteUrl}
           </a>
-        </div>
-        <div className={styles.contract}>
-          <ProfileInfo title={ProfileConstant.phone} img={phone} />
-          <ProfileInfo title={ProfileConstant.email} img={email} />
-        </div>
+        </div> */}
       </div>
       {/* <div className='profile-qr'>
         <img src={frame}></img>

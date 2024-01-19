@@ -4,7 +4,7 @@ export const ProfileConstant = {
   title: '胡赞来 / 简历',
   phone: '13867908869',
   email: 'klaushu@outlook.com',
-  web: '欢迎访问我的个人网站来获取更多项目信息：',
+  web: '欢迎访问个人网站：',
 }
 
 export const EducationConstant = {
@@ -32,20 +32,6 @@ export const WorkConstant = {
   works: [
     {
       workInfo: {
-        name: '蚂蚁集团',
-        year: '2021/10 - 2023/4',
-        major: '前端开发工程师',
-        level: '',
-        gpa: '',
-      },
-      workDetail: [
-        '1. 负责前端研发工作，并编写技术文档；',
-        '2. 对海外英语客户提供技术咨询；',
-        '3. 在蚂蚁集团工作期间，参与产品化钱包（移动端web）、BO中后台、钱包科技官网的开发。',
-      ],
-    },
-    {
-      workInfo: {
         name: '埃森哲',
         year: '2020/5 - 2021/8',
         major: '软件工程师',
@@ -53,9 +39,46 @@ export const WorkConstant = {
         gpa: '',
       },
       workDetail: [
-        '1. 负责前端研发工作；',
-        '2. 对新入职人员进行技术培训；',
-        '3. 在埃森哲工作期间，参与移动端web的开发。',
+        '1. 参与移动端web开发：车企保险系统、三井住友银行小额贷款；',
+        '2. 对新入职人员进行技术培训。',
+      ],
+    },
+
+    {
+      workInfo: {
+        name: '普华永道',
+        year: '2020/4 - 2020/5',
+        major: '高级前端开发工程师',
+        level: '',
+        gpa: '',
+      },
+      workDetail: [
+        '1. 前端开发。',
+      ],
+    },
+    {
+      workInfo: {
+        name: '蚂蚁集团',
+        year: '2021/10 - 2023/4',
+        major: '前端开发工程师',
+        level: '',
+        gpa: '',
+      },
+      workDetail: [
+        '1. 参与国际支付宝、BO中后台、钱包科技官网的开发。并编写相关技术文档；',
+        '2. 对海外英语母语客户提供技术咨询；',
+      ],
+    },
+    {
+      workInfo: {
+        name: '义乌市十把力电子商务有限公司',
+        year: '2023/6 - 至今',
+        major: '总裁',
+        level: '',
+        gpa: '',
+      },
+      workDetail: [
+        '1. 创办并运营电商公司。'
       ],
     },
   ],
@@ -64,7 +87,7 @@ export const WorkConstant = {
 export const ProjectConstant = {
   title: '代表项目',
   projects: [
-    { title: '钱包科技官网', desc: ['蚂蚁国际事业群 - 钱包科技团队的官网', '背景：官网是企业形象的重要组成部分。'] },
+    { title: '钱包科技官网', desc: ['蚂蚁国际团队的官网', '背景：官网是企业形象的重要组成部分。'] },
 
     {
       title: '钱包APP组件库',
@@ -98,7 +121,7 @@ export const SkillConstant = {
   ],
 }
 
-export const ThanksConstant = '- 感谢阅读简历，期待有机会与您共事 -'
+export const ThanksConstant = '- 感谢阅读简历，期待有机会与您共事。更多信息欢迎访问个人网站：https://zanlaihu.github.io/blog/ -'
 
 // export const ProfileConstant = {
 //   title: 'Zanlai Hu / Resume',

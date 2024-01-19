@@ -2,7 +2,7 @@ import SingleProject from 'src/components/SingleProject'
 import './index.css'
 import styles from './styles.module.scss'
 
-const desc = ['蚂蚁国际事业群 - 钱包科技团队的官网']
+const desc = ['蚂蚁国际团队的官网之一']
 
 const PortalProject = () => {
   return (
