@@ -78,37 +78,104 @@ export const ProjectConstant = {
         major: '支付宝',
         level: '',
         gpa: '',
-      }, desc: ['为南非Vodacom集团开发的类支付宝项目；负责跟进项目进度，安排外包人员进行开发；与Vodacom客户进行沟通。']
+      }, desc: ['为Vodacom集团-南非分部开发的类支付宝项目；负责跟进项目进度；安排外包人员开发；与Vodacom客户进行沟通。']
     },
     {
       workInfo: {
-        name: '埃森哲',
-        year: '2020/5 - 2021/8',
-        major: '软件工程师',
+        name: '蚂蚁国际官网',
+        year: '',
+        major: '支付宝',
         level: '',
         gpa: '',
       },
-      title: '钱包APP组件库',
       desc: [
-        '背景：专用于钱包APP的组件库',
-        '参与组件库的开发，负责开发list、input、dialog、toast、drawer、progress等组件。',
+        '蚂蚁国际官网的二级页面。官网已经上线，欢迎访问：payment-tech.alipayplus.com',
       ],
     },
     {
       workInfo: {
-        name: '埃森哲',
-        year: '2020/5 - 2021/8',
-        major: '软件工程师',
+        name: '大转盘',
+        year: '',
+        major: '支付宝',
         level: '',
         gpa: '',
       },
       title: '批量代发',
       desc: [
-        'BO中后台的批量代发功能。',
-        '批量代发员工工资以节省企业管理成本。',
-        '背景：站点提出的新需求。'
-      ],
-      link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/ip09qs7qnxkuffmc',
+        '属于支付宝的基础抽奖功能；涵盖【转盘页面】、【奖券页面】、【奖池页面】、【游戏说明页面】。',
+      ]
+    },
+    {
+      workInfo: {
+        name: 'KYC',
+        year: '',
+        major: '支付宝',
+        level: '',
+        gpa: '',
+      },
+      desc: [
+        '属于支付宝的个人信息填写功能；涵盖十几个填写用户信息的页面。',
+      ]
+    },
+    {
+      workInfo: {
+        name: '支付宝前端组件库',
+        year: '',
+        major: '支付宝',
+        level: '',
+        gpa: '',
+      },
+      desc: [
+        '属于支付宝的前端组件库；负责list、input、dialog、toast、drawer、progress等组件的开发。',
+      ]
+    },
+    {
+      workInfo: {
+        name: '批量代发',
+        year: '',
+        major: '支付宝',
+        level: '',
+        gpa: '',
+      },
+      desc: [
+        '属于支付宝中后台的功能；用于批量分发员工工资。',
+      ]
+    },
+    {
+      workInfo: {
+        name: '汉堡王数据报表',
+        year: '',
+        major: '普华永道',
+        level: '',
+        gpa: '',
+      },
+      desc: [
+        '智能展示汉堡王各类数据图表的前端应用。',
+      ]
+    },
+    {
+      workInfo: {
+        name: '三井住友银行小额贷款',
+        year: '',
+        major: '埃森哲',
+        level: '',
+        gpa: '',
+      },
+      desc: [
+        '承接三井住友银行开发的小额贷款应用。',
+      ]
+    },
+    {
+      workInfo: {
+        name: '车企保险项目',
+        year: '',
+        major: '埃森哲',
+        level: '',
+        gpa: '',
+      },
+      desc: [
+        '承接日本某车企的车辆保险应用。',
+      ]
     },
   ],
 }
@@ -126,7 +193,7 @@ export const SkillConstant = {
   ],
 }
 
-export const ThanksConstant = '- 感谢阅读简历，期待有机会与您共事。更多信息欢迎访问个人网站：https://zanlaihu.github.io/blog/ -'
+export const ThanksConstant = '- 感谢阅读简历，期待有机会与您共事。 -'
 
 // export const ProfileConstant = {
 //   title: 'Zanlai Hu / Resume',

@@ -1,7 +1,4 @@
-import WalletProjects from 'src/modules/Chinese/WalletProjects'
 import BOProjects from '../BOProjects'
-import ComponentProject from '../ComponentProject'
-import ProtalProject from '../PortalProject'
 import './index.css'
 import { ProjectConstant } from 'src/contants/CH'
 import University from 'src/components/University'
@@ -22,12 +19,6 @@ const Projects = () => {
             </div>
           </>
         ))}
-      </div>
-      <div>
-        <WalletProjects />
-        <ProtalProject />
-        <ComponentProject />
-        <BOProjects />
       </div>
     </div>
   )

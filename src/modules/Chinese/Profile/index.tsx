@@ -20,8 +20,8 @@ const Profile = () => {
           <ProfileInfo title={ProfileConstant.email} img={email} />
           <ProfileInfo title={"1994/3/13"} img={birth} />
         </div>
-        {/* <div className='web'>
-          {ProfileConstant.web}
+        <div className='web'>
+          个人网站：
           <a
             target='_blank'
             rel='noreferrer'
@@ -30,7 +30,7 @@ const Profile = () => {
           >
             {PersonalWebsiteUrl}
           </a>
-        </div> */}
+        </div>
       </div>
       {/* <div className='profile-qr'>
         <img src={frame}></img>
