@@ -8,28 +8,50 @@ export const ProfileConstant = {
 }
 
 export const EducationConstant = {
-  title: '教育经历',
   unis: [
     {
       name: '新南威尔士大学',
       year: '2018 - 2020',
       major: '信息技术',
       level: '硕士',
-      gpa: 'GPA: 76/100 TOP 20%',
+      gpa: 'GPA: 76/100 前 20%',
     },
     {
       name: '浙江师范大学',
       year: '2013 - 2017',
       major: '软件工程',
       level: '学士',
-      gpa: 'GPA: 86/100 TOP 10%',
+      gpa: 'GPA: 86/100 前 10%',
     },
   ],
 }
 
 export const WorkConstant = {
-  title: '工作经历',
   works: [
+    {
+      workInfo: {
+        name: '支付宝',
+        year: '2021/10 - 2023/4',
+        major: '前端开发工程师',
+        level: '',
+        gpa: '',
+      },
+      workDetail: [
+        '参与前端项目开发；编写前端技术文档；领导外包团队进行项目开发；与外国客户进行工作沟通。',
+      ],
+    },
+    {
+      workInfo: {
+        name: '普华永道',
+        year: '2021/4 - 2021/5',
+        major: '高级前端开发工程师',
+        level: '',
+        gpa: '',
+      },
+      workDetail: [
+        '参与前端项目开发。',
+      ],
+    },
     {
       workInfo: {
         name: '埃森哲',
@@ -39,57 +61,33 @@ export const WorkConstant = {
         gpa: '',
       },
       workDetail: [
-        '1. 参与移动端web开发：车企保险系统、三井住友银行小额贷款；',
-        '2. 对新入职人员进行技术培训。',
+        '参与前端项目开发；培训新入职同事。',
       ],
     },
 
-    {
-      workInfo: {
-        name: '普华永道',
-        year: '2020/4 - 2020/5',
-        major: '高级前端开发工程师',
-        level: '',
-        gpa: '',
-      },
-      workDetail: [
-        '1. 前端开发。',
-      ],
-    },
-    {
-      workInfo: {
-        name: '蚂蚁集团',
-        year: '2021/10 - 2023/4',
-        major: '前端开发工程师',
-        level: '',
-        gpa: '',
-      },
-      workDetail: [
-        '1. 参与国际支付宝、BO中后台、钱包科技官网的开发。并编写相关技术文档；',
-        '2. 对海外英语母语客户提供技术咨询；',
-      ],
-    },
-    {
-      workInfo: {
-        name: '义乌市十把力电子商务有限公司',
-        year: '2023/6 - 至今',
-        major: '总裁',
-        level: '',
-        gpa: '',
-      },
-      workDetail: [
-        '1. 创办并运营电商公司。'
-      ],
-    },
+
   ],
 }
 
 export const ProjectConstant = {
-  title: '代表项目',
   projects: [
-    { title: '钱包科技官网', desc: ['蚂蚁国际团队的官网', '背景：官网是企业形象的重要组成部分。'] },
-
     {
+      workInfo: {
+        name: 'Vodapay',
+        year: '',
+        major: '支付宝',
+        level: '',
+        gpa: '',
+      }, desc: ['为南非Vodacom集团开发的类支付宝项目；负责跟进项目进度，安排外包人员进行开发；与Vodacom客户进行沟通。']
+    },
+    {
+      workInfo: {
+        name: '埃森哲',
+        year: '2020/5 - 2021/8',
+        major: '软件工程师',
+        level: '',
+        gpa: '',
+      },
       title: '钱包APP组件库',
       desc: [
         '背景：专用于钱包APP的组件库',
@@ -97,6 +95,13 @@ export const ProjectConstant = {
       ],
     },
     {
+      workInfo: {
+        name: '埃森哲',
+        year: '2020/5 - 2021/8',
+        major: '软件工程师',
+        level: '',
+        gpa: '',
+      },
       title: '批量代发',
       desc: [
         'BO中后台的批量代发功能。',

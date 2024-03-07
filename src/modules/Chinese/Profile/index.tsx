@@ -18,7 +18,7 @@ const Profile = () => {
         <div className={styles.contract}>
           <ProfileInfo title={ProfileConstant.phone} img={phone} />
           <ProfileInfo title={ProfileConstant.email} img={email} />
-          <ProfileInfo title={"1994"} img={birth} />
+          <ProfileInfo title={"1994/3/13"} img={birth} />
         </div>
         {/* <div className='web'>
           {ProfileConstant.web}

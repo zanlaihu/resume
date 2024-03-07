@@ -1,16 +1,20 @@
 .education-content {
-    padding: 14px 0px 0;
+    padding: 10px 0px 0;
 
     /* border: 1px solid hsl(210deg 18% 87% / 100%); */
     border-radius: 6px;
     color: #24292f;
 }
 
-
-
 .education-title {
-    height: 30px;
-    font-size: 12px;
-    line-height: 30px;
+    height: 28px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #24292f;
 }
 
+.line {
+    width: auto;
+    border-top: 0.5px solid hsl(210, 18%, 87%);
+    margin-bottom: 4px;
+}

@@ -7,18 +7,18 @@
 }
 
 .work-title {
-  height: 30px;
+  height: 28px;
   font-size: 12px;
-  line-height: 30px;
+  line-height: 28px;
 }
 
 .work-detail-content {
-  padding: 2px 6px 6px;
+  padding: 0px 0px 6px;
 }
 
 .work-detail {
   margin-right: 16px;
-  font-size: 12px;
+  font-size: 13px;
   color: #57606a;
   line-height: 22px;
 }

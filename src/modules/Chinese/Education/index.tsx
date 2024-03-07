@@ -6,7 +6,8 @@ import './index.css'
 const Education = () => {
   return (
     <div className='education-content'>
-      <div className='education-title'>{EducationConstant.title}</div>
+      <div className='education-title'>教育经历</div>
+      <div className='line'></div>
       <div className='education-unis'>
         {EducationConstant.unis.map(item => (
           <University uni={item} />
