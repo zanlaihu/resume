@@ -1,17 +1,30 @@
-import Blank from '../../../components/Blank'
-import University from '../../../components/University'
-import { EducationConstant } from '../../../contants/CH'
+import { EducationConstant } from 'src/contants/CH'
+import University from 'src/components/University'
 import './index.css'
 
 const Education = () => {
   return (
     <div className='education-content'>
       <div className='education-title'>教育经历</div>
-      <div className='line'></div>
       <div className='education-unis'>
         {EducationConstant.unis.map(item => (
           <University uni={item} />
         ))}
+        {/* <University
+          name={'新南威尔士大学'}
+          year={'2018 - 2020'}
+          major={'信息技术'}
+          level={'硕士'}
+          gpa={'GPA: 76/100 TOP 20%'}
+        />
+        <Blank />
+        <University
+          name={'浙江师范大学'}
+          year={'2013 - 2017'}
+          major={'软件工程'}
+          level={'学士'}
+          gpa={'GPA: 86/100 TOP 10%'}
+        /> */}
       </div>
     </div>
   )

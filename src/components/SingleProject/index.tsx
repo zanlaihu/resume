@@ -11,7 +11,7 @@ export interface SingleProjectProps {
 const SingleProject = (props: SingleProjectProps) => {
   return (
     <div className={styles.content}>
-      <div className={styles.title}>{props.title}：</div>
+      <div className={styles.title}>{props.title}</div>
       <div className={styles.descContent}>
         {props.desc.map(item => (
           <div className={styles.desc}>

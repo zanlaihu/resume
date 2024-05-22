@@ -1,0 +1,21 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 14px;
+  border: 1px solid hsl(210deg 18% 87% / 100%);
+  border-radius: 6px;
+}
+
+.introContent {
+  padding-bottom: 4px;
+}
+
+.descContent {
+  display: flex;
+  padding-top: 4px;
+  font-size: 12px;
+  color: #57606a;
+  flex-direction: row;
+}

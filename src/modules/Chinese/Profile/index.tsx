@@ -5,31 +5,17 @@ import birth from 'src/assets/img/birth.svg'
 import ProfileInfo from 'src/components/ProfileInfo'
 import { PersonalWebsiteUrl, ProfileConstant } from 'src/contants/CH'
 import './index.css'
-import styles from './styles.module.scss'
 
 const Profile = () => {
   return (
-    <div className={styles.content}>
+    <div>
+      <div className='name'>胡赞来</div>
       <div>
-        <div className='name'>
-          <div>{ProfileConstant.title}</div>
-        </div>
-
-        <div className={styles.contract}>
+        <div className='infocontent'>
+          <ProfileInfo title={"户口：上海"} />
           <ProfileInfo title={ProfileConstant.phone} img={phone} />
           <ProfileInfo title={ProfileConstant.email} img={email} />
           <ProfileInfo title={"1994/3/13"} img={birth} />
-        </div>
-        <div className='web'>
-          个人网站：
-          <a
-            target='_blank'
-            rel='noreferrer'
-            className='weblink'
-            href='https://zanlaihu.github.io/blog/'
-          >
-            {PersonalWebsiteUrl}
-          </a>
         </div>
       </div>
       {/* <div className='profile-qr'>

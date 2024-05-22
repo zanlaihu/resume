@@ -1,0 +1,37 @@
+.english-wallet-project-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 8px;
+    padding: 14px 14px 0px;
+    /* width: 100%; */
+    border: 1px solid hsl(210deg 18% 87% / 100%);
+    border-radius: 6px;
+}
+
+.wallet-project-title {
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+
+.single-project-desc {
+    display: flex;
+    flex-direction: row;
+    color: #57606a;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.single-project-desc-icon {
+    padding-right: 6px;
+}
+
+.single-project-view {
+    color: #0969da;
+    font-size: 13px;
+}
+
+.wallet-project-list {
+    display: flex;
+    flex-direction: row;
+}

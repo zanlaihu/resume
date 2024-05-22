@@ -1,13 +1,11 @@
 import University from 'src/components/University'
 import { WorkConstant } from 'src/contants/CH'
 import './index.css'
-import styles from './styles.module.scss'
 
 const Work = () => {
   return (
-    <div className={styles.content}>
-      <div className='education-title'>工作经历</div>
-      <div className='line'></div>
+    <div className='english-work-content'>
+      <div className='work-title'>工作经历</div>
       <div className='work-info'>
         {WorkConstant.works.map(item => (
           <>

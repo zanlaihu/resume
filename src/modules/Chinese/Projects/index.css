@@ -1,34 +1,12 @@
-.projects-content {
-    padding: 4px 0px 0px;
-}
-
-.project-title-content {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    height: 32px;
-
-    /* border-top: 1px solid hsl(210deg 18% 87% / 100%); */
-    color: #24292f;
-    font-size: 14px;
-    line-height: 32px;
-    text-align: center;
-}
-
 .project-single-project-content {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
 
-    margin-top: 40px;
+  /* margin-top: 4px; */
 }
 
-.chinese-projects-one-line-list {
-    display: flex;
-    flex-direction: row;
-}
-
-.line {
-    width: auto;
-    border-top: 0.5px solid hsl(210, 18%, 87%);
+.english-projects-one-line-list {
+  display: flex;
+  flex-direction: row;
 }

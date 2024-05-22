@@ -1,4 +1,10 @@
+.english-work-content {
+  padding: 5px 0px 6px;
 
+  /* border: 1px solid hsl(210deg 18% 87% / 100%); */
+  border-radius: 6px;
+  color: #24292f;
+}
 
 .work-blank {
   margin: 4px 0;
@@ -7,18 +13,18 @@
 }
 
 .work-title {
-  height: 28px;
+  height: 30px;
   font-size: 12px;
-  line-height: 28px;
+  line-height: 30px;
 }
 
 .work-detail-content {
-  padding: 0px 0px 6px;
+  padding: 2px 6px 6px;
 }
 
 .work-detail {
   margin-right: 16px;
-  font-size: 13px;
-  color: #57606a;
+  color: #44494f;
+  font-size: 12px;
   line-height: 22px;
 }

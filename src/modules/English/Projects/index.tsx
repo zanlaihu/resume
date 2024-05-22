@@ -24,7 +24,7 @@ const Projects = () => {
             ></path>
           </svg>
         </div>
-        <div className={styles.title}>Representative Projects</div>
+        <div className={styles.title}>Representative Works</div>
       </div>
       <div>
         <WalletProjects />

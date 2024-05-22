@@ -6,12 +6,18 @@
 
 .name {
   display: flex;
-
-  /* color: #57606a; */
-  font-weight: 500;
-  color: #24292f;
+  justify-content: left;
+  color: #000000;
   flex-direction: row;
+  font-weight: 500;
   font-size: 32px;
+}
+
+.infocontent {
+  display: flex;
+  justify-content:left;
+  flex-direction: row;
+  padding-top: 8px;
 }
 
 .gan {

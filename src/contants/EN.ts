@@ -55,7 +55,6 @@ export const WorkConstant = {
       workDetail: [
         '1. Response for the Front-end development work;',
         '2. Provide training for newcomers;',
-        '3. Participate in mobile web development, the middle office and official website.',
       ],
     },
   ],
