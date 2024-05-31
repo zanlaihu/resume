@@ -12,7 +12,6 @@ const Profile = () => {
       <div className='name'>胡赞来</div>
       <div>
         <div className='infocontent'>
-          <ProfileInfo title={"户口：上海"} />
           <ProfileInfo title={ProfileConstant.phone} img={phone} />
           <ProfileInfo title={ProfileConstant.email} img={email} />
           <ProfileInfo title={"1994/3/13"} img={birth} />

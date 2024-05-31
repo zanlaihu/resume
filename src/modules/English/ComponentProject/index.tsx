@@ -15,11 +15,6 @@ const ComponentProject = () => {
           </div>
         ))}
       </div>
-      {/* <div className='single-project-view'>
-        <a target='_blank' rel='noreferrer' className='weblink' href={''}>
-          view more
-        </a>
-      </div> */}
     </div>
   )
 }
