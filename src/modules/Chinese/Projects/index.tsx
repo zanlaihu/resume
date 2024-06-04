@@ -1,8 +1,7 @@
 import WalletProjects from 'src/modules/Chinese/WalletProjects'
-import BOProjects from '../BOProjects'
 import './index.css'
 import styles from './styles.module.scss'
-import ComponentProject from 'src/modules/English/ComponentProject'
+import ProjectComp from '../ProjectComp'
 
 const Projects = () => {
   return (
@@ -27,11 +26,7 @@ const Projects = () => {
       </div>
       <div>
         <WalletProjects />
-        <ComponentProject />
-        <BOProjects />
-        {/* <div className='english-projects-one-line-list'>
-
-        </div> */}
+        <ProjectComp />
       </div>
     </div>
   )
