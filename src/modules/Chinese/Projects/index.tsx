@@ -2,6 +2,7 @@ import WalletProjects from 'src/modules/Chinese/WalletProjects'
 import './index.css'
 import styles from './styles.module.scss'
 import ProjectComp from '../ProjectComp'
+import ProjectWeb from '../ProjectWeb'
 
 const Projects = () => {
   return (
@@ -22,11 +23,12 @@ const Projects = () => {
             ></path>
           </svg>
         </div>
-        <div className={styles.title}>项目经历</div>
+        <div className={styles.title}>代表项目</div>
       </div>
       <div>
         <WalletProjects />
         <ProjectComp />
+        <ProjectWeb />
       </div>
     </div>
   )
