@@ -3,6 +3,7 @@ import './index.css'
 import styles from './styles.module.scss'
 import ProjectComp from '../ProjectComp'
 import ProjectWeb from '../ProjectWeb'
+import ProjectCal from '../ProjectCal'
 
 const Projects = () => {
   return (
@@ -29,6 +30,7 @@ const Projects = () => {
         <WalletProjects />
         <ProjectComp />
         <ProjectWeb />
+        <ProjectCal />
       </div>
     </div>
   )

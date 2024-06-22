@@ -1,13 +1,13 @@
 import './index.css'
 import styles from './styles.module.scss'
 
-const ProjectWeb = () => {
+const ProjectWCal = () => {
   return (
     <div className={styles.content}>
       <div className={styles.introContent}>
-        <div className='wallet-project-title'>钱包科技官网</div>
+        <div className='wallet-project-title'>Python自动化爬虫</div>
         {[
-          '为钱包科技团队设计开发的官方网站。已上线：payment-tech.alipayplus.com',
+          '每日自动化爬取Vodapay在Google商店和Apple商店的用户评分及用户评价，并以邮件的形式群发至指定邮箱。',
         ].map(item => (
           <div className='single-project-desc'>
             <div className='single-project-desc-icon'>•</div>
@@ -19,4 +19,4 @@ const ProjectWeb = () => {
   )
 }
 
-export default ProjectWeb
+export default ProjectWCal
