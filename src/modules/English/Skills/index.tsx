@@ -26,7 +26,7 @@ const Skills = () => {
         {SkillConstant.title}
       </div>
       <div className={styles.skills}>
-        web, mobile web, H5, Hybrid, HTML, CSS/Less/Sass, JavaScript/TypeScript, React
+        Python, web, mobile web, H5, HTML, CSS/Less/Sass, JavaScript/TypeScript, React
       </div>
     </div>
   )

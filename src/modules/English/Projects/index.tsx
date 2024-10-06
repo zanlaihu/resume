@@ -1,6 +1,7 @@
 import BOProjects from '../BOProjects'
 import ComponentProject from '../ComponentProject'
 import ProtalProject from '../PortalProject'
+import ProjectCal from '../ProjectCal'
 import WalletProjects from '../WalletProjects'
 import './index.css'
 import styles from './styles.module.scss'
@@ -30,10 +31,8 @@ const Projects = () => {
         <WalletProjects />
         <ProtalProject />
         <ComponentProject />
-        <BOProjects />
-        {/* <div className='english-projects-one-line-list'>
-
-        </div> */}
+        <ProjectCal />
+        {/* <BOProjects /> */}
       </div>
     </div>
   )

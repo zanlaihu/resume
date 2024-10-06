@@ -13,21 +13,14 @@ const Profile = () => {
         <div className='name'>
           <div>{ProfileConstant.title}</div>
         </div>
-        <div className='web'>
-          {ProfileConstant.web}
-          <a
-            target='_blank'
-            rel='noreferrer'
-            className='weblink'
-            href='https://zanlaihu.github.io/blog/'
-          >
-            {PersonalWebsiteUrl}
-          </a>
-        </div>
+
         <div className='profile-contact'>
           <ProfileInfo title={ProfileConstant.phone} img={phone} />
           <ProfileInfo title={ProfileConstant.email} img={email} />
           <ProfileInfo title={"1994/3/13"} img={birth} />
+        </div>
+        <div className='web'>
+          {ProfileConstant.web}
         </div>
       </div>
       {/* <div className='profile-qr'>

@@ -9,8 +9,6 @@ const WalletProjects = () => {
         <div className='wallet-project-title'>The Productized Wallet</div>
         {[
           'The productized wallet is the main product sold by the Ant. Lazada, Kakaopay, Vodapay, and DanaPay are achievements of it.',
-          'Hybrid application. The business development is carried out by H5. ',
-          'Representative functions that developed by me are listed below.',
         ].map(item => (
           <div className='single-project-desc'>
             <div className='single-project-desc-icon'>•</div>
@@ -21,22 +19,19 @@ const WalletProjects = () => {
       <SingleProject
         title={'Lucky Draw'}
         desc={[
-          'Big Turntable Lottery draw function',
-          'Prizes are drawn randomly by spinning the wheel.',
+          'Big Turntable Lottery draw function. Prizes are drawn randomly by spinning the wheel.',
         ]}
       />
       <SingleProject
         title={'Discount Coupons'}
         desc={[
-          'Discount Coupon function.',
-          'Coupons can be used to offset the order amount.',
+          'Discount Coupon function. Coupons can be used to offset the order amount.',
         ]}
       />
       <SingleProject
         title={'KYC'}
         desc={[
-          'Personal Information Management',
-          'Users fill in personal information to use more functions of the wallet',
+          'Personal Information Management,Users fill in personal information to use more functions of the wallet',
         ]}
       />
     </div>

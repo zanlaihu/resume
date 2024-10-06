@@ -1,10 +1,10 @@
 export const PersonalWebsiteUrl = 'https://zanlaihu.github.io/blog/'
 
 export const ProfileConstant = {
-  title: 'Zanlai Hu / Resume',
+  title: 'Zanlai Hu',
   phone: '13867908869',
   email: 'klaushu@outlook.com',
-  web: 'Welcome to visite my personal website to get more info: ',
+  web: "Graduated with a bachelor's degree from a normal university and a master's degree with overseas study experience. Worked in a Fortune 500 multinational corporation and a leading domestic internet company. During undergraduate studies, participated in rural teaching support; during graduate studies, worked part-time as a programming teacher.",
 }
 
 export const EducationConstant = {
