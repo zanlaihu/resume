@@ -4,6 +4,7 @@ import styles from './styles.module.scss'
 import ProjectComp from '../ProjectComp'
 import ProjectWeb from '../ProjectWeb'
 import ProjectCal from '../ProjectCal'
+import ProjectSan from '../ProjectSan'
 
 const Projects = () => {
   return (
@@ -31,6 +32,7 @@ const Projects = () => {
         <ProjectComp />
         <ProjectWeb />
         <ProjectCal />
+        <ProjectSan />
       </div>
     </div>
   )

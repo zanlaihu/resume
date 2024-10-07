@@ -28,7 +28,8 @@
 }
 
 .web {
-  margin-top: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: #3d4044;
   font-size: 12px;
 }

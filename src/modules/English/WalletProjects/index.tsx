@@ -6,9 +6,9 @@ const WalletProjects = () => {
   return (
     <div className={styles.content}>
       <div className={styles.introContent}>
-        <div className='wallet-project-title'>The Productized Wallet</div>
+        <div className='wallet-project-title'>Alipay International Version</div>
         {[
-          'The productized wallet is the main product sold by the Ant. Lazada, Kakaopay, Vodapay, and DanaPay are achievements of it.',
+          "Participated in the front-end development of the international version of Alipay's South African site Vodapay. Responsible for functions such as big carousel, KYC, OTC, discount coupon payment and other functions.",
         ].map(item => (
           <div className='single-project-desc'>
             <div className='single-project-desc-icon'>•</div>
@@ -16,24 +16,6 @@ const WalletProjects = () => {
           </div>
         ))}
       </div>
-      <SingleProject
-        title={'Lucky Draw'}
-        desc={[
-          'Big Turntable Lottery draw function. Prizes are drawn randomly by spinning the wheel.',
-        ]}
-      />
-      <SingleProject
-        title={'Discount Coupons'}
-        desc={[
-          'Discount Coupon function. Coupons can be used to offset the order amount.',
-        ]}
-      />
-      <SingleProject
-        title={'KYC'}
-        desc={[
-          'Personal Information Management,Users fill in personal information to use more functions of the wallet',
-        ]}
-      />
     </div>
   )
 }

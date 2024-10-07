@@ -32,7 +32,7 @@ const Projects = () => {
         <ProtalProject />
         <ComponentProject />
         <ProjectCal />
-        {/* <BOProjects /> */}
+        <BOProjects />
       </div>
     </div>
   )

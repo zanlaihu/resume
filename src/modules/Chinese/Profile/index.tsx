@@ -16,7 +16,7 @@ const Profile = () => {
           <ProfileInfo title={ProfileConstant.email} img={email} />
           <ProfileInfo title={"1994/3/13"} img={birth} />
         </div>
-        <div className='self'>本科毕业于师范类学校，硕士具有海外留学背景。曾在世界500强外企及国内互联网龙头公司工作。本科期间曾下乡支教，研究生期间兼职编程老师。</div>
+        <div className='self'>师范类本科毕业，海外留硕。世界500强外企、互联网工作经历。下乡支教，兼职编程教师经历。</div>
       </div>
       <div className='profile-pic-content'>
         <img src={green} className='profil-pic'/>

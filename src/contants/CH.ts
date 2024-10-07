@@ -11,14 +11,14 @@ export const EducationConstant = {
   unis: [
     {
       name: '新南威尔士大学',
-      year: '2018 - 2020',
+      year: '悉尼，2018 - 2020',
       major: '信息技术',
       level: '硕士',
       gpa: 'GPA: 76/100 前 20%',
     },
     {
       name: '浙江师范大学',
-      year: '2013 - 2017',
+      year: '金华，2013 - 2017',
       major: '软件工程',
       level: '学士',
       gpa: 'GPA: 86/100 前 10%',
@@ -31,7 +31,7 @@ export const WorkConstant = {
     {
       workInfo: {
         name: '蚂蚁集团',
-        year: '2021/10 - 2023/4',
+        year: '上海，2021/10 - 2023/4',
         major: '前端开发工程师',
         level: '',
         gpa: '',
@@ -45,7 +45,7 @@ export const WorkConstant = {
     {
       workInfo: {
         name: '埃森哲',
-        year: '2020/5 - 2021/8',
+        year: '上海，2020/5 - 2021/8',
         major: '软件工程师',
         level: '',
         gpa: '',
@@ -53,6 +53,19 @@ export const WorkConstant = {
       workDetail: [
         '1. 负责前端和后端开发。',
         '2. 为新入职员工提供培训。',
+      ],
+    },
+    {
+      workInfo: {
+        name: '在线编程教师',
+        year: '2018 - 至今',
+        major: '',
+        level: '',
+        gpa: '',
+      },
+      workDetail: [
+        '1. Python教学',
+        '2. 硕士课程作业指导',
       ],
     },
   ],

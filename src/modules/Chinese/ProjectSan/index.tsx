@@ -1,17 +1,14 @@
-import SingleProject from 'src/components/SingleProject'
 import './index.css'
 import styles from './styles.module.scss'
 
-const desc = [
-  'Develop an online loan software for Sumitomo Mitsui Banking Corporation (SMBC)',
-]
-
-const BOProjects = () => {
+const ProjectSan = () => {
   return (
     <div className={styles.content}>
       <div className={styles.introContent}>
-        <div className='wallet-project-title'>SMBC Online loan software</div>
-        {desc.map(item => (
+        <div className='wallet-project-title'>三井住友银行贷款APP</div>
+        {[
+          '帮助三井住友银行开发的在线贷款软件。',
+        ].map(item => (
           <div className='single-project-desc'>
             <div className='single-project-desc-icon'>•</div>
             <div>{item}</div>
@@ -22,4 +19,4 @@ const BOProjects = () => {
   )
 }
 
-export default BOProjects
+export default ProjectSan
